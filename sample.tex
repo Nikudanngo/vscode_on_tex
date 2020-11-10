@@ -1,0 +1,52 @@
+\documentclass[dvipdfmx,uplatex]{jsarticle}%A4縦用紙のおまじない
+\newcommand{\bvec}[1]{\mbox{\boldmath $#1$}}%ベクトルを\bvec{文字}で表示できる
+\usepackage{cancel}%\cancel{}で{}の中身に斜線を引ける
+\usepackage{layout}%\layoutでレイアウトを表示する
+\usepackage{siunitx}%si単位系を\si{\kilogram}=>kgのように表示できる
+\usepackage[top=20truemm,bottom=20truemm,left=15truemm,right=15truemm]{geometry}%レイアウトをいじる
+\begin{document}
+\title{サンプル}
+\author{えんどー}  
+%\date{}とすれば日付が表示されない
+\maketitle
+\section{\LaTeX による論文の書き方}
+\begin{itemize}
+    \item ググる
+    \large %これ以降文字を少し大きくする
+    \item 書く
+    \Large %これ以降文字を大きくする
+    \item さらにググる
+    \LARGE %これ以降文字をさらに大きくする
+    \item さらに書く
+    \small
+    \item たまに休憩
+\end{itemize}
+\section{数式の書き方}
+\large
+    \begin{equation}
+        F = ma
+    \end{equation}
+    \begin{eqnarray}
+        e^{\bvec{i}\pi} + 1 = 0 \label{2} \\%\label{}で式番号を手動で割り当てる
+        %\\で改行　πは\piで書く
+        %通常の()はそのままでいいが大きい()は\left( 任意のテキスト \right)と書く
+        e = \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right) ^n \label{3} \\ %{eqnarray}を使えば二行書ける
+    \end{eqnarray}
+    \begin{eqnarray*} %*をつければ式番号が消える
+        x &=& 1 + 2 \\ % &&で挟めば式をそろえられる
+        x &=& 3 
+    \end{eqnarray*}
+\begin{enumerate}
+    \item 新しい項目を作る
+    \item[(a)] []のオプションを変更して項目の形式を指定
+    \item[(1)] たかしくんはリンゴを握りつぶしてこう言いました$\cdots$  %文章中に\を使いたいときは$$で数式モードにする   
+\end{enumerate}
+
+\newpage  %ここで新しいページにする
+
+\section{基本的に}
+%{verbatim}で入力した通りに出力
+    \begin{verbatim} 
+        \関数名[オプション]{テキスト or 要素}で構成される
+    \end{verbatim}
+\end{document}
