@@ -1,2 +1,2 @@
 # vscode_on_tex
-vscodeでLaTexを動かすのに必要な設定ファイルです。このファイルの中身をvscodeのsetting.jsonにコピペしてください。
+vscodeでLaTexを動かすのに必要な設定ファイルです。setting.txtのファイルの中身をvscodeのsetting.jsonにコピペしてください。
