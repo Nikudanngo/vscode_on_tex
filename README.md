@@ -1,4 +1,6 @@
 # tex_on_vscobe
-vscodeでLaTexを動かすのに必要な設定ファイルです。setting.txtのファイルの中身をvscodeのsetting.jsonにコピペしてください。jsonファイルはvscodeを開いた状態でctrl+shift+Pで、出てきた検索窓に"json"と入力すると一番上にできます。
+vscodeでLaTexを動かすのに必要な設定ファイルです。
+拡張機能 LaTeX Workshopをインストールした後、setting.txtのファイルの中身をvscodeのsetting.jsonにコピペしてください。jsonファイルはvscodeを開いた状態でctrl+shift+Pで、出てきた検索窓に"json"と入力すると一番上にできます。
 
 sample.pdfの日本語がうまく表示されていないかもしれませんが、お手元のpcにダウンロードして開いてみてください。
+その他インストール方法や文法はご自身で調べて下さいm(_ _)m
