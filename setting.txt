@@ -28,5 +28,5 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.tabSize": 2,
-    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    // "editor.defaultFormatter": "James-Yu.latex-workshop" // MacTeX では動作しないかも
   },
